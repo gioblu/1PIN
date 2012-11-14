@@ -13,7 +13,7 @@ with Arduino IDE without harming any other function or library. This happens bec
 
 So NO INTTERRUPT, NO TIMER, NO WATCHDOG directly used. 
 
-This means that 1PIN can run freely on ATtiny85 without harming PWM, micros(), delayMicroseconds() or other functions/libraries flashed. 
+This means that 1PIN can run freely on ATtiny85 without harming PWM, micros(), delayMicroseconds() or other libraries flashed. 
 
 digitalWrite and digitalRead are really useless for this application (really long duration), 1PIN needs PORT commands
 to communicate fast, digitalWriteFast really elegant library to the job dinamically.
