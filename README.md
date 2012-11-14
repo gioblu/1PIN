@@ -1,6 +1,7 @@
 1PIN OPENSOURCE COMMUNICATION PROTOCOL - MASTER SLAVE ARCHITECTURE | 255 SELECTABLE IDS
 ONLY ONE WIRE USED TO COMMUNICATE BIDIRECTIONALLY FROM 2,38KB/S TO 2,97 KB/S FROM 1 TO 255 ARDUINOS
 YES, ON THE SAME WIRE, YES, WITH ONLY ONE WIRE, AND YES, WITHOUT 1WIRE :P!!
+
 In the makers / DIY / Arduino world is really difficult to see efficient communication with Serial, i2c or 1wire.
 Users are annoyed by really complex ways to bring information from a MCU to another one and often those are propietary.
 So the idea. Write a new standard of communication based only on the Arduino software resources.
