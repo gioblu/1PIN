@@ -21,11 +21,9 @@ LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9365 cmd receiv
 
 LOW SETUP:  (Arduino duemilanove) [BITwidth 35|BITspacer 105|startWINDOW 70| readDELAY 4]
 ***
-***
 STD SPEED:  2,85 kb/s - 476 cmd/s - 571 req/s | ACCURACY 96.01% (9601 cmd received / 10000 sent)
 
 STD SETUP:  (Arduino duemilanove) [BITwidth 28|BITspacer  84|startWINDOW 40| readDELAY 4]
-***
 ***
 FAST SPEED: 3,18 kb/s - 530 cmd/s - 636 req/s | ACCURACY 94.41 % (9441 cmd received / 10000 sent)
 
