@@ -5,7 +5,7 @@
 //  COMMAND: |commandTYPE|ID|VALUE|VALUE|CRC| REQUEST: |REQ(byte255)|ID|SUBJECT|CRC|
 //  TOOLS USED: micros(), delayMicroseconds(), digitalWriteFast lib | NO INTERRUPT, NO TIMERS
 
-//  LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9365 cmd received / 10000 sent)
+//  LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9993 cmd received / 10000 sent)
 //  LOW SETUP:  (Arduino duemilanove) [BITwidth 35|BITspacer 105|startWINDOW 70| readDELAY 4]
 
 //  STD SPEED:  2,85 kb/s - 476 cmd/s - 571 req/s | ACCURACY 96.01% (9601 cmd received / 10000 sent)
