@@ -6,6 +6,7 @@ YES, ON THE SAME WIRE, YES, WITH ONLY ONE WIRE, AND YES, WITHOUT 1WIRE :P!!
 
 In the makers / DIY / Arduino world is really difficult to see efficient communication with Serial, i2c or 1wire.
 Users are annoyed by really complex ways to bring information from a MCU to another one and often those are propietary.
+
 For this reason at least 2 years ago I has an idea: Write a new standard of communication based only on the Arduino software resources.
 I choose to start this way to serve a really compatible protocol that could fit theorically on every board that works
 with Arduino IDE without harming any other function or library. This happens because 1PIN use only software to work.
