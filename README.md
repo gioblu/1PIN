@@ -14,13 +14,13 @@ harming PWM, micros(), delayMicroseconds() or other functions/libraries flashed.
 digitalWrite and digitalRead are really useless for this application (really long duration), 1PIN needs PORT commands
 to communicate fast, digitalWriteFast really elegant library to the job dinamically.
 
-//  LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9365 cmd received / 10000 sent)
+//  LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9365 cmd received / 10000 sent)\n
 //  LOW SETUP:  (Arduino duemilanove) [BITwidth 35|BITspacer 105|startWINDOW 70| readDELAY 4]
 
-//  STD SPEED:  2,85 kb/s - 476 cmd/s - 571 req/s | ACCURACY 96.01% (9601 cmd received / 10000 sent)
+//  STD SPEED:  2,85 kb/s - 476 cmd/s - 571 req/s | ACCURACY 96.01% (9601 cmd received / 10000 sent)\n
 //  STD SETUP:  (Arduino duemilanove) [BITwidth 28|BITspacer  84|startWINDOW 40| readDELAY 4]
 
-//  FAST SPEED: 3,18 kb/s - 530 cmd/s - 636 req/s | ACCURACY 94.41 % (9441 cmd received / 10000 sent)
+//  FAST SPEED: 3,18 kb/s - 530 cmd/s - 636 req/s | ACCURACY 94.41 % (9441 cmd received / 10000 sent)\n
 //  FAST SETUP: (Arduino duemilanove) [BITwidth 24|BITspacer 80|startWINDOW 24| readDELAY 0]
 
 
