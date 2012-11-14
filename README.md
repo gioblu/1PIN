@@ -15,7 +15,7 @@ So NO INTTERRUPT, NO TIMER, NO WATCHDOG directly used.
 
 This means that 1PIN can run freely on ATtiny85 without harming PWM, micros(), delayMicroseconds() or other libraries flashed. 
 
-digitalWrite/Read are useless for this application (long duration), 1PIN needs PORT commands to communicate fast, digitalWriteFast really elegant library to the job dinamically.
+digitalWrite/Read are useless for this application (long duration), digitalWriteFast library do the job elegantly.
 
 //  LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9365 cmd received / 10000 sent)
 
