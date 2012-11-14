@@ -5,7 +5,7 @@ MASTER SLAVE ARCHITECTURE | 255 SELECTABLE IDS | 3,18KB/S
 ###ONLY ONE WIRE USED TO COMMUNICATE BIDIRECTIONALLY FROM 2,38KB/S TO 3,18 KB/S FROM 1 TO 255 ARDUINO BOARDS WITH CYCLIC REDUNDANCY CHECK AND CORRECT RECEIVING AKNOWLEDGE
 
 YES, ON THE SAME WIRE, YES, WITH ONLY ONE WIRE, AND YES, WITHOUT 1WIRE :P!!
-
+***
 In the makers / DIY / Arduino world is really difficult to see efficient communication with Serial, i2c or 1wire.
 Users are annoyed by really complex ways to bring information from a MCU to another one and often those are propietary.
 
