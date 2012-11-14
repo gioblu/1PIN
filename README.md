@@ -10,6 +10,7 @@ Users are annoyed by really complex ways to bring information from a MCU to anot
 For this reason at least 2 years ago I started to develop a new standard of communication based only on the Arduino software resources.
 I choose to start this way to serve a really compatible protocol that could fit theorically on every board that works
 with Arduino IDE without harming any other function or library. This happens because 1PIN use only software to work.
+
 So NO INTTERRUPT, NO TIMER, NO WATCHDOG directly used. This means that 1PIN could run freely on ATtiny85 without 
 harming PWM, micros(), delayMicroseconds() or other functions/libraries flashed. 
 digitalWrite and digitalRead are really useless for this application (really long duration), 1PIN needs PORT commands
