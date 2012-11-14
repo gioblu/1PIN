@@ -16,20 +16,19 @@ So NO INTTERRUPT, NO TIMER, NO WATCHDOG directly used.
 This means that 1PIN can run freely on ATtiny85 without harming PWM, micros(), delayMicroseconds() or other libraries flashed. 
 
 digitalWrite/Read are useless for this application (long duration), digitalWriteFast library do the job elegantly.
-
----------------------------------------------------------------------------------------------------
+---
 LOW SPEED:  2,38 kb/s - 396 cmd/s - 476 req/s | ACCURACY 99.93% (9365 cmd received / 10000 sent)
 
 LOW SETUP:  (Arduino duemilanove) [BITwidth 35|BITspacer 105|startWINDOW 70| readDELAY 4]
----------------------------------------------------------------------------------------------------
+---
 STD SPEED:  2,85 kb/s - 476 cmd/s - 571 req/s | ACCURACY 96.01% (9601 cmd received / 10000 sent)
 
 STD SETUP:  (Arduino duemilanove) [BITwidth 28|BITspacer  84|startWINDOW 40| readDELAY 4]
----------------------------------------------------------------------------------------------------
+---
 FAST SPEED: 3,18 kb/s - 530 cmd/s - 636 req/s | ACCURACY 94.41 % (9441 cmd received / 10000 sent)
 
 FAST SETUP: (Arduino duemilanove) [BITwidth 24|BITspacer 80|startWINDOW 24| readDELAY 0]
----------------------------------------------------------------------------------------------------
+---
 
 Idea by Giovanni Blu Mitolo & Martino di Filippo - www.gioblu.com - gioscarab@gmail.com
 
