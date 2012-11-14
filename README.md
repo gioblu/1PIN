@@ -19,6 +19,7 @@ FAST SPEED: 2,97 kb/s - 2976 baud/s - 496 cmd/s - 595 req/s | ACCURACY 86.78% (8
 FAST SETUP: (Arduino duemilanove) [BITwidth 28|BITspacer  84|startWindow 40|readDelay 4]
 
 Idea by Giovanni Blu Mitolo & Martino di Filippo - www.gioblu.com - gioscarab@gmail.com
+
 1PIN is released under CreativeCommons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 
 
